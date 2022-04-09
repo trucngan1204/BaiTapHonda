@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import favicon icon -->
+    <link
+      rel="shortcut icon"
+      href="https://www.honda.com/areas/honda_homepage/img/favicons/favicon.ico?v=2"/>
+    <title>BC24 HTML5&CSS3 HONDA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200,400,500,600,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <!-- <div class="navbar">
+          <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <span>MENU</span>
+        </div> -->
+        <a href="#" class="logo">
+          <img src="./images/global-logo.svg"/>
+        </a>
+        <div class="navbar">
+            <a href="#">About Us</a>
+            <i class="fa fa-search"></i>
+        </div>
+      </div>
+    </header>
+    <section class="slider">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class=" carousel-item carousel-item-1 active">
+            <img src="./images/hinh22.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class=" carousel-item carousel-item-2">
+            <img src="./images/hinh23.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <!-- <span class="visually-hidden">Previous</span> -->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <!-- <span class="visually-hidden">Next</span> -->
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>         
+        </div>
+      </div>
+  </section>
+  <section class="product-list animate__animated animate__fadeInUp wow">
+    <main class="main">
+        <div class="list animate__animated animate__fadeInUp wow">
+            <div class="item item-1">
+                <img src="./images/logo/logo_honda_autos.webp" />
+                <p>Honda Atutos</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-2">
+                <img src="./images/hinh10.webp" />
+            </div>
+            <div class="item item-3">
+                <img src="./images/logo/logo_honda_powersports.webp" />
+                <p>Motorcycles, ATVs, Scooters, SxS</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-4">
+                <img src="./images/hinh15.jpg" />
+            </div>
+            <div class="item item-5">
+                <img src="./images/logo/logo_honda_corporate_red.webp" />
+                <p>Generators, Mowers &amp; Power Equipment</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-6">
+                <img src="./images/hinh8.webp" />
+            </div>
+            <div class="item item-7">
+                <img src="./images/logo/logo_acura.webp" />
+                <p>Acura Atutos</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-8">
+                <img src="./images/hinh14.jpg" />
+            </div>
+            <div class="item item-9">
+                <img src="./images/logo/logo_honda_jet.webp" />
+                <p>Honda Aircraft Company</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-10">
+                <img src="./images/hinh12.jpg" />
+            </div>
+            <div class="item item-11">
+                <img src="./images/hinh9.jpg" />
+            </div>
+            <div class="item item-12">
+                <img src="./images/logo/logo_honda_corporate_white.webp">
+                <p>General Purpose Engines</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-13">
+                <img src="./images/hinh11.jpg" />
+            </div>
+            <div class="item item-14">
+                <img src="./images/hinh13.webp" />
+            </div>
+            <div class="item item-15">
+                <img src="./images/logo/logo_honda_marine.png" />
+                <p>Outboard Motors</p>
+                <span>GO</span>
+            </div>
+            <div class="item item-16">
+                <img src="./images/logo/logo_honda_racing.webp" />
+                <p>Auto Racing</p>
+                <span>GO</span>
+
+            </div>                                 
+        </div>
+    </main>
+</section>
+    <section class="company">
+      <header class="title">
+        <h1>OUR COMPANY</h1>
+      </header>
+      <main class="main">
+        <div class="list">
+          <div class="item item-1">
+            <img src="./images/hinh20.jpg"/>
+            <div class="detail">
+              <h2>MOBILITY</h2>
+              <p>We're creating tomorrow's world to elevate the joy and freedom of mobility for all</p>
+              <span>MORE
+                <i class="fa fa-angle-right"></i>
+              </span>
+            </div>           
+          </div>
+          <div class="item item-2">
+            <img src="./images/hinh19.jpg"/>
+            <div class="detail">
+              <h2>ENVIRONMENT</h2>
+              <p>We’re reducing our environmental footprint at every step to help preserve the planet for future generations.</p>
+              <span>MORE
+                <i class="fa fa-angle-right"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item item-3">
+            <img src="./images/hinh18.jpg"/>
+            <div class="detail">
+              <h2>COMMUNITY</h2>
+              <p>We’ve always been deeply involved in the communities where we work and live</p>
+              <span>MORE
+                <i class="fa fa-angle-right"></i>
+              </span>
+            </div>
+          </div>
+          <div class="item item-4">
+            <img src="./images/hinh21.jpg"/>
+            <div class="detail">
+              <h2>SAFETY</h2>
+              <p>Honda envisions a future where collisions are a thing of the past. See how we’ll get there starting with our model year 2040 vehicles</p>
+              <span>MORE
+                <i class="fa fa-angle-right"></i>
+              </span>
+            </div>
+          </div>
+      </div>
+      </main>
+    </section>
+    <section class="power">
+        <div class="detail">
+          <h2>THE POWER OF DREAMS</h2>
+          <p>See what makes a Honda, who makes a Honda, how we got here, and where we're headed.</p>
+          <span>MORE
+            <i class="fa fa-angle-right"></i>
+          </span>
+        </div>
+      </a>
+    </section>
+    <section class="information animate__animated animate__fadeInUp wow">
+      <header class="title">                 
+          <h3>WHAT WE'RE UP TO</h3>
+      </header>
+      <main class="main animate__animated animate__fadeInUp wow">
+          <div class="container">
+              <div class="list">
+                  <div class="item item-1">
+                      <img src="./images/hinh16.jpg" />
+                      <div class="info">
+                          <h3>Honda Collection Hall</h3>
+                          <p>Explore hundreds of our storied creations in this 360° immersive experience.</p>
+                          <span>LAUNCH VIRTUAL MUSEUM <i class="fa-solid fa-chevron-right"></i></span>
+                      </div>
+                  </div>
+                  <div class="item item-2">
+                      <img src="./images/podcast-logo.webp" />
+                      <div class="info">
+                          <h3>Honda Stories</h3>
+                          <p>Go behind the badge and into the world of Honda Stories. Hear an inside look at Honda from a wide variety of people including company, industry experts and championship drivers.</p>
+                          <span>LISTEN NOW  <i class="fa-solid fa-chevron-right"></i></span>
+                      </div>
+                  </div>
+                  <div class="item item-3">
+                      <img src="./images/hinh7.webp" />
+                      <div class="info">
+                          <h3>Interior Design Philosophy</h3>
+                          <p>Honda showcases a new interior design philosophy that will shape the styling of future Honda models.</p>
+                          <span>WATCH <i class="fa-solid fa-chevron-right"></i></span>
+                      </div>
+                  </div>
+                  <div class="item item-4">
+                      <img src="./images/hinh24.jpg" />
+                  </div>
+                  <div class="item item-5">
+                      <div class="twitter-icon">
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      </div>
+                      <div class="twitter-content">
+                          <div class="twitter-info">
+                              <a href="#">
+                                  <img src="./images/acura-logo.png"/>
+                              </a>
+                              <div class="twitter-info-box">
+                                  <h3>Acura</h3>
+                                  <span>
+                                      <a href="#">@Acura</a>
+                                  </span>
+
+                              </div>
+                          </div>
+                          <div class="twitter-copy">
+                              <p>The suspense is real. Best of luck to @MeyerShankRac, @WayneTaylorRcng, and @GradientRacing at @GPLongBeach today.…
+                                  <a href="https://t.co/RwZq6k4kqR" >https://t.co/RwZq6k4kqR</a>
+                              </p>
+                          </div>
+                          <div class="twitter-time">
+                              <a href="#">05:00 PM - 08 Apr 2022</a>
+                          </div>
+                          <div class="twitter-action">
+                              <a href="#"><i class="fa-solid fa-reply"></i></a>
+                              <a href="#"><i class="fa-solid fa-retweet"></i>10</a>
+                              <a href="#"><i class="fa-solid fa-retweet"></i>67</a>        
+                          </div>               
+                      </div>                          
+                  </div>
+                  <div class="item item-6">
+                      <img src="./images/hinh25.jpg" />
+                  </div>
+              </div>
+          </div>
+      </main>
+
+  </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row-content">
+          <div class="col">
+            <h4>OUR BRANDS</h4>
+            <ul>
+              <li>
+                Honda Autos 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Acura Autos 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Honda Powersports
+                <i class="fa fa-angle-right"></i>
+                <p>Motorcycles, ATVs, Scooters, SxS</p>
+              </li>
+              <li>
+                Honda Power Equipment 
+                <i class="fa fa-angle-right"></i>
+                <p>Generators, Lawn Mowers, Pumps, Snow Blowers, Tillers, Trimmers</p>
+              </li>
+              <li>
+                Honda Engines 
+                <i class="fa fa-angle-right"></i>
+                <p>Small Engines, Manuals, Parts & Resources</p>
+              </li>
+              <li>
+                Honda Marine   
+                <i class="fa fa-angle-right"></i>
+                <p>Outboard Motors, Parts & Accessories</p>
+              </li>
+              <li>
+                HondaJet 
+                <i class="fa fa-angle-right"></i>
+                <p>Honda Aircraft Company</p>
+              </li>
+              <li>
+                ASIMO 
+                <i class="fa fa-angle-right"></i>
+                <p>The World's Most Advanced Humanoid Robot</p>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col">
+            <h4>ABOUT US</h4>
+            <ul>
+              <li>
+                The Power of Dreams 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Mobility
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Environment
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Community 
+                <i class="fa fa-angle-right"></i>
+              <li>
+                Safety 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                History   
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Operations 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Careers 
+                <i class="fa fa-angle-right"></i>
+              </li>
+            </ul>
+            <h4>MORE TO EXPLORE</h4>
+            <ul>
+              <li>
+                Research & Development  
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Honda in America
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Corporate Social Responsibility
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Honda Worldwide 
+                <i class="fa fa-angle-right"></i>
+              <li>
+                Investor Relations 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Media Newsroom   
+                <i class="fa fa-angle-right"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>RACING </h4>
+            <ul>
+              <li>
+                Auto Racing 
+                <i class="fa fa-angle-right"></i>
+              </li>
+              <li>
+                Motorcycle Racing 
+                <i class="fa fa-angle-right"></i>
+              </li>
+            </ul>
+              <h4>RECALLS</h4>
+              <ul>
+                <li>
+                  Honda Recalls 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Acura Recalls
+                  <i class="fa fa-angle-right"></i>
+                <li>
+                  Powersports Recalls 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Power Equipment Recalls    
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Marine Recalls 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Engines Recalls 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+              </ul>
+              <h4>SERVICES</h4>
+              <ul>
+                <li>
+                  Honda Financial Services 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Honda Owners
+                  <i class="fa fa-angle-right"></i>
+                <li>
+                  Acura Financial Services 
+                  <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                  Acura Owners   
+                  <i class="fa fa-angle-right"></i>
+                </li>
+          </div>
+        </div>
+        <div class="row-icon">
+          <div class="col-icon">
+            <a href="#">
+              <img src="./images/footer/footer-twitter.png" alt="twitter"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-instagram.png" alt="instagram"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-snapchat.png" alt="snapchat"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-youtube.png" alt="youtube"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-facebook.png" alt="facebook"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-pinterest.png" alt="pinterest"/>
+            </a>
+            <a href="#">
+              <img src="./images/footer/footer-tiktok.png" alt="tiktok"/>
+            </a>
+          </div>
+        </div>
+        <div class="row-contact">
+          <div class="col-contact">
+            <p>© 2022 American Honda Motor Co., Inc. All information contained herein applies to U.S. products only.</p>
+            <a href="#">Vehicle Data Privacy </a> &nbsp; | &nbsp;
+            <a href="#">SMS Terms and Conditions </a> &nbsp; | &nbsp;
+            <a href="#">Privacy Policy</a> &nbsp; | &nbsp;
+            <a href="#">Do Not Sell My Personal Information</a> &nbsp; | &nbsp;
+            <a href="#">Legal Terms and Conditions</a> &nbsp; | &nbsp;
+            <a href="#"> Prop 65 Info</a>
+            <p>We use cookies to improve your experience on this site and show you personalized advertising. To find out more, read our cookie policy.</p>
+            <a href="#" style="font-weight: 500; text-decoration: none; font-size: 16px;">Site Map </a>&nbsp;|&nbsp;
+            <a href="#" style="font-weight: 500;text-decoration: none; font-size: 16px;">Honda Licensing</a>&nbsp;|&nbsp;
+            <a href="#" style="font-weight: 500;text-decoration: none; font-size: 16px;"> Contact Us </a>
+          </div>
+        </div>
+        <div>
+      </div>
+    </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
