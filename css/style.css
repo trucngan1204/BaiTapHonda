@@ -433,8 +433,18 @@
 .information .main .item span{
     font-size: 12px;
     text-decoration: double;
+    font-weight: 800;
     color: #007CC2;
 }
+
+.information .main .item h3{
+    font-weight: 800;
+}
+
+.information .main .item p{
+    letter-spacing: 1px;
+}
+
 .information .main .container::before{
     border-bottom: 20px solid #f9f9f9;
     border-left: 20px solid transparent;
